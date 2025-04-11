@@ -6,26 +6,26 @@ from modules.config import EMOTIONS, COMPANY_INFO
 from openai import OpenAI
 import os
 from dotenv import load_dotenv
-import getpass
 
 load_dotenv()
 
-# Get the API key from the user
-if os.getenv("OPENROUTER_API_KEY") is None:
-    api_key = getpass.getpass("Enter your OpenRouter API key: ")
-else:
-    api_key = os.getenv("OPENROUTER_API_KEY")
-
-client = OpenAI(
-  base_url="https://openrouter.ai/api/v1",
-  api_key=api_key,
-)
 
 class ResponseGenerator:
-    def __init__(self):
+    def __init__(self, api_key=None):
         """Initialize the response generator with company information and emotion settings."""
         self.company_info = COMPANY_INFO
         self.emotion_tones = EMOTIONS
+
+        # Get the API key from the user
+        self.api_key = api_key or os.getenv("OPENROUTER_API_KEY")
+
+        # Initialize the client if we have an API key
+        self.client = None
+        if self.api_key:
+            self.client = OpenAI(
+                base_url="https://openrouter.ai/api/v1",
+                api_key=self.api_key,
+            )
         
     def generate_response(self, user_input, detected_emotion):
         """
@@ -38,6 +38,9 @@ class ResponseGenerator:
             Returns:
                 str: The generated response
         """
+        if not self.client:
+            return "API client not initialized. Please provide an API key."
+        
         # Get the tone  for the detected emotion
         tone = self.emotion_tones[detected_emotion]["tone"]
         style = ", ".join(self.emotion_tones[detected_emotion]["style_modifiers"])
@@ -47,7 +50,7 @@ class ResponseGenerator:
 
 
         # using the tone, style, and openRouter api to generate a response
-        completion = client.chat.completions.create(
+        completion = self.client.chat.completions.create(
             extra_headers={},
             extra_body={},
             model="meta-llama/llama-4-scout:free",

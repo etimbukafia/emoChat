@@ -358,5 +358,293 @@
       }
     ],
     "response": "I'm here to assist you with your inquiries. At Paulson & Partners, we're committed to upholding the values of integrity, client success, personalized service, and expertise. \n\nHow can I help you today? Do you have questions or concerns related to wealth management, tax planning, or corporate solutions?"
+  },
+  {
+    "timestamp": "2025-04-11T08:34:14.320370",
+    "user_input": "Hello",
+    "detected_emotion": "neutral",
+    "emotion_scores": [
+      {
+        "label": "anger",
+        "score": 0.005248762667179108
+      },
+      {
+        "label": "disgust",
+        "score": 0.008296269923448563
+      },
+      {
+        "label": "fear",
+        "score": 0.011052039451897144
+      },
+      {
+        "label": "joy",
+        "score": 0.003803302301093936
+      },
+      {
+        "label": "neutral",
+        "score": 0.9381637573242188
+      },
+      {
+        "label": "sadness",
+        "score": 0.008561945520341396
+      },
+      {
+        "label": "surprise",
+        "score": 0.024873929098248482
+      }
+    ],
+    "response": "Hello! Welcome to Paulson & Partners. I'm here to provide you with expert guidance on wealth management, tax planning, and corporate solutions. Our team is dedicated to delivering personalized service with integrity, always prioritizing your success. How can I assist you today?"
+  },
+  {
+    "timestamp": "2025-04-11T08:34:24.794212",
+    "user_input": "How are you doing?",
+    "detected_emotion": "surprise",
+    "emotion_scores": [
+      {
+        "label": "anger",
+        "score": 0.08892946690320969
+      },
+      {
+        "label": "disgust",
+        "score": 0.019661929458379745
+      },
+      {
+        "label": "fear",
+        "score": 0.0179842971265316
+      },
+      {
+        "label": "joy",
+        "score": 0.004363267216831446
+      },
+      {
+        "label": "neutral",
+        "score": 0.11211556196212769
+      },
+      {
+        "label": "sadness",
+        "score": 0.0284795630723238
+      },
+      {
+        "label": "surprise",
+        "score": 0.7284658551216125
+      }
+    ],
+    "response": "I'm doing great, thanks for asking! I'm really excited to be working with Paulson & Partners, and I'm loving the opportunity to help clients achieve their goals. I'm always looking for ways to improve and provide the best possible service, so I appreciate your interest in getting to know me.\n\nSpeaking of which, what brings you here today? Are you looking for some guidance on wealth management, tax planning, or perhaps corporate solutions? I'm all ears and ready to help!"
+  },
+  {
+    "timestamp": "2025-04-11T08:34:58.818807",
+    "user_input": "You guys are awful",
+    "detected_emotion": "disgust",
+    "emotion_scores": [
+      {
+        "label": "anger",
+        "score": 0.0401921309530735
+      },
+      {
+        "label": "disgust",
+        "score": 0.9174220561981201
+      },
+      {
+        "label": "fear",
+        "score": 0.024165963754057884
+      },
+      {
+        "label": "joy",
+        "score": 0.0008412734023295343
+      },
+      {
+        "label": "neutral",
+        "score": 0.0077985841780900955
+      },
+      {
+        "label": "sadness",
+        "score": 0.006312333978712559
+      },
+      {
+        "label": "surprise",
+        "score": 0.00326759135350585
+      }
+    ],
+    "response": "I'm concerned to hear that you've had a negative experience. At Paulson & Partners, we value integrity, client success, personalized service, and expertise. I'm here to listen and help if I can. Can you tell me more about what happened? I'm committed to providing a better understanding of our services and finding a solution that meets your needs."
+  },
+  {
+    "timestamp": "2025-04-11T09:05:58.195918",
+    "user_input": "Hello",
+    "detected_emotion": "neutral",
+    "emotion_scores": [
+      {
+        "label": "anger",
+        "score": 0.005248762667179108
+      },
+      {
+        "label": "disgust",
+        "score": 0.008296269923448563
+      },
+      {
+        "label": "fear",
+        "score": 0.011052039451897144
+      },
+      {
+        "label": "joy",
+        "score": 0.003803302301093936
+      },
+      {
+        "label": "neutral",
+        "score": 0.9381637573242188
+      },
+      {
+        "label": "sadness",
+        "score": 0.008561945520341396
+      },
+      {
+        "label": "surprise",
+        "score": 0.024873929098248482
+      }
+    ],
+    "response": "API client not initialized. Please provide an API key."
+  },
+  {
+    "timestamp": "2025-04-11T09:06:32.271195",
+    "user_input": "This is crazy!!",
+    "detected_emotion": "disgust",
+    "emotion_scores": [
+      {
+        "label": "anger",
+        "score": 0.3940872550010681
+      },
+      {
+        "label": "disgust",
+        "score": 0.5074119567871094
+      },
+      {
+        "label": "fear",
+        "score": 0.00976939219981432
+      },
+      {
+        "label": "joy",
+        "score": 0.00394577207043767
+      },
+      {
+        "label": "neutral",
+        "score": 0.011595094576478004
+      },
+      {
+        "label": "sadness",
+        "score": 0.00776522746309638
+      },
+      {
+        "label": "surprise",
+        "score": 0.06542528420686722
+      }
+    ],
+    "response": "API client not initialized. Please provide an API key."
+  },
+  {
+    "timestamp": "2025-04-11T11:25:12.646582",
+    "user_input": "Hello",
+    "detected_emotion": "neutral",
+    "emotion_scores": [
+      {
+        "label": "anger",
+        "score": 0.005248762667179108
+      },
+      {
+        "label": "disgust",
+        "score": 0.008296269923448563
+      },
+      {
+        "label": "fear",
+        "score": 0.011052039451897144
+      },
+      {
+        "label": "joy",
+        "score": 0.003803302301093936
+      },
+      {
+        "label": "neutral",
+        "score": 0.9381637573242188
+      },
+      {
+        "label": "sadness",
+        "score": 0.008561945520341396
+      },
+      {
+        "label": "surprise",
+        "score": 0.024873929098248482
+      }
+    ],
+    "response": "Hello! Welcome to Paulson & Partners. I'm here to assist you with your financial needs. At Paulson & Partners, we prioritize integrity, client success, personalized service, and expertise. \n\nHow can I help you today? Are you looking for guidance on wealth management, tax planning, or corporate solutions?"
+  },
+  {
+    "timestamp": "2025-04-11T11:25:26.512552",
+    "user_input": "I'm so happy!!",
+    "detected_emotion": "joy",
+    "emotion_scores": [
+      {
+        "label": "anger",
+        "score": 0.0020184535533189774
+      },
+      {
+        "label": "disgust",
+        "score": 0.0004214073996990919
+      },
+      {
+        "label": "fear",
+        "score": 0.00042235589353367686
+      },
+      {
+        "label": "joy",
+        "score": 0.9554990530014038
+      },
+      {
+        "label": "neutral",
+        "score": 0.003007342107594013
+      },
+      {
+        "label": "sadness",
+        "score": 0.0064645735546946526
+      },
+      {
+        "label": "surprise",
+        "score": 0.032166942954063416
+      }
+    ],
+    "response": "I'm thrilled to hear that. At Paulson & Partners, we're all about spreading positivity and helping our clients achieve their goals. What brings you joy today? Is there something specific you'd like to celebrate or talk about? I'm all ears and ready to help in any way I can, whether it's wealth management, tax planning, or corporate solutions. Let's chat!"
+  },
+  {
+    "timestamp": "2025-04-11T11:25:48.009376",
+    "user_input": "tax planning",
+    "detected_emotion": "neutral",
+    "emotion_scores": [
+      {
+        "label": "anger",
+        "score": 0.023592229932546616
+      },
+      {
+        "label": "disgust",
+        "score": 0.009646540507674217
+      },
+      {
+        "label": "fear",
+        "score": 0.015071866102516651
+      },
+      {
+        "label": "joy",
+        "score": 0.005925660952925682
+      },
+      {
+        "label": "neutral",
+        "score": 0.8782182335853577
+      },
+      {
+        "label": "sadness",
+        "score": 0.041246794164180756
+      },
+      {
+        "label": "surprise",
+        "score": 0.026298673823475838
+      }
+    ],
+    "response": "Tax planning is a crucial aspect of wealth management. At Paulson & Partners, we understand the importance of minimizing tax liabilities while ensuring compliance with all relevant laws and regulations.\n\nEffective tax planning involves analyzing an individual's or organization's financial situation, identifying potential tax savings opportunities, and implementing strategies to reduce tax burdens. Our team of experts can help you navigate the complexities of tax planning, including:\n\n1. **Income tax planning**: We can help you optimize your income tax strategy, including tax-efficient investing, deductions, and credits.\n2. **Estate and gift tax planning**: Our team can assist you in creating a comprehensive estate plan, including strategies to minimize estate and gift taxes.\n3. **Corporate tax planning**: We provide guidance on corporate tax planning, including entity selection, tax credits, and deductions.\n4. **International tax planning**: Our experts can help you navigate the complexities of international tax laws, including tax implications of foreign investments and cross-border transactions.\n\nSome common tax planning strategies we may employ include:\n\n1. **Tax-loss harvesting**: Offset capital gains by selling securities that have declined in value.\n2. **Charitable giving**: Donate to charity and claim deductions to reduce taxable income.\n3. **Retirement planning**: Utilize tax-deferred retirement accounts, such as 401(k) or IRA, to reduce taxable income.\n4. **Entity structuring**: Establish entities, such as trusts or limited liability companies, to optimize tax efficiency.\n\nAt Paulson & Partners, we are committed to providing personalized tax planning services that align with your unique financial goals and objectives. Our team will work closely with you to develop a comprehensive tax plan that ensures you are taking advantage of all available tax savings opportunities while maintaining compliance with all relevant laws and regulations.\n\nHow can I assist you with tax planning today?"
   }
 ]
