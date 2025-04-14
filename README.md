@@ -41,18 +41,13 @@ EmoChat is an AI-powered chatbot designed to detect emotions in conversations an
    streamlit run app.py
    ```
 
-2. Open the app in your browser at `http://localhost:8501`.
-
-3. Start chatting with the bot and experience emotion-aware responses.
+2. Start chatting with the bot and experience emotion-aware responses.
 
 ## Project Structure
 - `app.py`: Main entry point for the Streamlit app.
 - `modules/`: Contains core modules for emotion detection, response generation, and logging.
 - `conversation_logs.json`: Stores chat history.
 - `requirements.txt`: Lists project dependencies.
-
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Acknowledgments
 - Built with [Streamlit](https://streamlit.io/).
